@@ -1,0 +1,1023 @@
+Sat, 27 Feb 2021 10:15:02 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 10, in add_contact
+    cp.input_info(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 51, in input_info
+    el_note = self.by_xpath(xpath8)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 16, in by_xpath
+    return self.driver.find_element_by_xpath(xpath)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:15:13 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:15:23 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:15:34 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:15:44 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:15:54 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:16:05 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:16:15 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:16:26 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:16:36 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:16:46 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:16:57 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:17:07 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:17:17 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:17:28 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:17:38 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:17:48 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:17:59 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:18:09 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:18:20 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:18:30 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:18:40 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:18:51 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:19:01 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:19:12 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:19:22 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 10:19:32 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:07:26 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 21, in init_add
+    add_button = self.by_id("iv_contact_add")
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 8, in by_id
+    return self.driver.find_element_by_id(id_)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:07:32 test_add_contact.py[line:65] INFO 测试用例:('a002', None, None, None, None, None, None, None), 期望: '此联系人暂无信息', 通过
+Sat, 27 Feb 2021 11:07:38 test_add_contact.py[line:65] INFO 测试用例:('a003', '  ', None, None, None, None, None, None), 期望: '此联系人暂无信息', 通过
+Sat, 27 Feb 2021 11:07:45 test_add_contact.py[line:65] INFO 测试用例:('a004', 'abcd', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:07:51 test_add_contact.py[line:65] INFO 测试用例:('a005', ' @#￥%&*', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:07:57 test_add_contact.py[line:65] INFO 测试用例:('a006', 12345, None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:08:04 test_add_contact.py[line:65] INFO 测试用例:('a007', '12ab#$ cd', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:08:11 test_add_contact.py[line:65] INFO 测试用例:('a008', 'email163.com', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:08:17 test_add_contact.py[line:65] INFO 测试用例:('a009', 'email@163com', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:08:23 test_add_contact.py[line:65] INFO 测试用例:('a010', 'email@163.', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:08:29 test_add_contact.py[line:65] INFO 测试用例:('a011', 'email163@.com', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:08:36 test_add_contact.py[line:65] INFO 测试用例:('a012', 'email163.@com', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:08:42 test_add_contact.py[line:65] INFO 测试用例:('a013', 'email163.com@', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:08:48 test_add_contact.py[line:65] INFO 测试用例:('a014', 'email@.163com', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:08:54 test_add_contact.py[line:65] INFO 测试用例:('a015', 'email@163com.', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Sat, 27 Feb 2021 11:09:15 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 10, in add_contact
+    cp.input_info(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 51, in input_info
+    el_note = self.by_xpath(xpath8)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 16, in by_xpath
+    return self.driver.find_element_by_xpath(xpath)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:09:26 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:09:36 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:09:46 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:09:57 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:10:07 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:10:17 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:10:28 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:10:38 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:10:48 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:10:59 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:11:09 test_add_contact.py[line:57] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_add_contact.py", line 44, in test_new_contact
+    action.add_contact(name, email, company, department, position, phone, addr, note)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\add_contact.py", line 9, in add_contact
+    cp.init_add()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\contacts_page.py", line 18, in init_add
+    contact_button = self.by_uiautomator('new UiSelector().text("通讯录")')
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 24, in by_uiautomator
+    return self.driver.find_element_by_android_uiautomator(ui)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\extensions\search_context\android.py", line 146, in find_element_by_android_uiautomator
+    return self.find_element(by=MobileBy.ANDROID_UIAUTOMATOR, value=uia_string)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:14:41 test_send_email.py[line:65] INFO 测试用例:('957584602@qq.com', '测试', '这是一封测试邮件'), 期望: '收件箱',, 失败
+Sat, 27 Feb 2021 11:14:51 test_send_email.py[line:62] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_send_email.py", line 46, in test_send_email
+    action.send_email(email, topic, text)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\send_email.py", line 9, in send_email
+    se.func_select()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\send_email_page.py", line 17, in func_select
+    func_button = self.by_id("iv_mail_list_plus")
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 8, in by_id
+    return self.driver.find_element_by_id(id_)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Sat, 27 Feb 2021 11:15:01 test_send_email.py[line:62] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestCase\test_send_email.py", line 46, in test_send_email
+    action.send_email(email, topic, text)
+  File "C:\Users\Janet\Documents\appium_mail_master-master\TestAction\send_email.py", line 9, in send_email
+    se.func_select()
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Page\send_email_page.py", line 17, in func_select
+    func_button = self.by_id("iv_mail_list_plus")
+  File "C:\Users\Janet\Documents\appium_mail_master-master\Common\basepage.py", line 8, in by_id
+    return self.driver.find_element_by_id(id_)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 31, in check_response
+    raise wde
+  File "C:\Program Files\Python\Python38\lib\site-packages\appium\webdriver\errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "C:\Program Files\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
